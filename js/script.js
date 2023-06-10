@@ -1,7 +1,14 @@
-// function (){
-    // console.log('hello');
-// };
+//Anonymous function with setting time interval for 3 seconds
 
-setTimeout(function (){
-    console.log('hello RG');
-},2000);
+function show(){
+    console.log('Rello RG!');
+};
+
+setTimeout(show, 3000);
+
+//******************************************//
+// We can directly add function as a parameter of another function
+
+setTimeout(function show(){
+    console.log('Hello Royal!');
+}, 3000);
