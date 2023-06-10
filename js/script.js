@@ -1,14 +1,10 @@
-//Anonymous function with setting time interval for 3 seconds
+/*Immediately Invoked Function - 
+*This can be executed without storing in a variable, so no need to call any variable
+*/
 
-function show(){
+
+(function (){
     console.log('Rello RG!');
-};
+    alert("Hey RG")
+}) ();
 
-setTimeout(show, 3000);
-
-//******************************************//
-// We can directly add function as a parameter of another function
-
-setTimeout(function show(){
-    console.log('Hello Royal!');
-}, 3000);
